@@ -23,6 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
+  # Data Classes / Value Types generation
+  freezed_annotation: ^0.11.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,6 +35,14 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  # Source code generation
+  build_runner:
+    
+  # Data Classes / Value Types generation
+  freezed:
+
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
