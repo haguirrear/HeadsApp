@@ -1,4 +1,5 @@
 abstract class ReminderInterface {
+  int get id;
   String get title;
   String get description;
 }
